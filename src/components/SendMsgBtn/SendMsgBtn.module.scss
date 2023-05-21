@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.sendBtn {
+    outline: none;
+    border: none;
+    background-color: $primary-color;
+    color: $text-light;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: $border-radius;
+}

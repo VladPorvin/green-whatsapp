@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.wrapper {    
+    background-color: $light-background;
+    padding: $menu-item-spacing;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.error {
+    color: $text-error
+}

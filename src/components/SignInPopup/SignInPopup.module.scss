@@ -1,5 +1,52 @@
 @import '../../styles/variables.scss';
 
 .wrapper {
-    width: 1000px;
+    padding: 64px 60px 60px;
+    box-shadow: $box-shadow;
+    margin: 0 auto;
+    background-color: $light-background;
+    border-radius: $border-radius;
+    font-weight: $font-weight-m;
+
+    .title {
+        font-size: $text-l;
+    }
+
+    .label {
+        display: block;
+    }
+
+    .label + .label {
+        margin-top: 28px;
+    }
+
+    .input {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #B8B8B8;
+        width: 100%;
+        max-width: 400px;
+
+        &:focus {
+            border-color:#000;
+        }
+    }
+
+    .error {
+        color: $text-error;
+    }
+
+    .button {
+        border: none;
+        color: $text-light;
+        border-radius: $border-radius;
+        background-color: $primary-color;
+        margin-top: 28px;
+        width: 100px;
+        height: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }

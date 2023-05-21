@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.panel {
+    height: $h-header-panel;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $panel-header-bg;
+    padding: $menu-item-spacing;
+    border-right: 1px solid $panel-interface-elements;
+
+    .img {
+        height: 40px;
+        width: 40px;
+        border-radius: $borde-radius-circle;
+    }
+
+    .dots {
+        li {
+            width: 5px;
+            height: 5px;
+            background-color: $panel-interface-elements;
+            border-radius: $borde-radius-circle;
+            vertical-align: top;
+        }
+
+        li + li {
+            margin-top: 3px;
+        }
+
+    }
+}
