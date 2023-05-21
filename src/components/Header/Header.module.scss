@@ -1,0 +1,16 @@
+@import '../../styles//variables.scss';
+
+.header {
+    padding: $space-l 0;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 39px;
+
+    .logo {
+        font-size: 20px;
+        font-weight: 700;
+        color: $text-light;
+    }
+}

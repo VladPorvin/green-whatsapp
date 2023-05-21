@@ -1,47 +1,66 @@
-$primary-color: #4793ff;
+
+// Text colors
+$text-light: #fff;
+$text-dark: #41525d;
+$text-error: #D8000C;
+$font-weight-m: 500;
+
+// Text sizes
+$text-m: 20px;
+$text-l: 28px;
+
+// Background colors
+$primary-color: #00a884;
 $light-background: #fff;
+$panel-header-bg: var(--panel-background);
+$search-input-background: var(--search-input-background);
+
+// Background styles
 $box-shadow: 0 17px 50px 0 rgba(11,20,26,.19), 0 12px 15px 0 rgba(11,20,26,.24);
+$box-shadow-less: 0 6px 18px rgba(var(--shadow-rgb),.05);
+$panel-header-background: var(--panel-background);
+$h-header-panel: var(--h-header-panel);
+$panel-interface-elements: var(--panel-interface-elements);
+$chatbox-background: var(--chatbox-background);
+$chatbox-footer-background: var(--panel-background);
+
+// Component styles
 $border-radius: 3px;
+$borde-radius-circle: 50%;
+$h-header-search-input: var(--h-header-search-input);
+$h-message-input: var(--h-message-input);
+$h-contact: var(--h-contact);
+$h-contact-avatar: var( --h-contact-avatar);
+$w-contact-avatar: var(--w-contact-avatar);
 
-$light-color: #000;
-$dark-color: #fff;
-$base-color: #939cb0;
 
-$body-background-dark: #0d1117;
-$body-background-light: #fff;
 
-$components-background-dark: #4f4f4f;
-$components-background-light: #fff;
+// Spaces
+$space-l: 28px;
+$space-s: 15px;
+$menu-item-spacing: var(--menu-item-spacing);
 
-$card-background-light: rgba(71, 147, 255, 0.2);
-$card-background-dark: #2e3035;
-
-$card-box-shadow-light: 0px 3px 20px rgba(147, 144, 144, 0.28);
-$card-box-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
 
 :root {
-  //body-background
-  --body-background-dark: #{$body-background-dark};
-  --body-background-light: #{$body-background-light};
-  --body-background-default: var(#{--body-background-light});
+    --shadow-rgb: 11,20,26;
 
-  //components-background
-  --components-background-dark: #{$components-background-dark};
-  --components-background-light: #{$components-background-light};
-  --components-background-default: var(#{--components-background-light});
+    --panel-background: #f0f2f5;
+    --search-input-background: #f0f2f5;
+    --chatbox-background: #F7F6FD;
 
-  //card-background
-  --card-background-dark: #{$card-background-dark};
-  --card-background-light: #{$card-background-light};
-  --card-background-default: var(#{--card-background-light});
+    --h-header-panel: 60px;
+    --h-header-search-input: 40px;
+    --h-message-input: 48px;
 
-  //card-shadow
-  --card-shadow-dark: #{$card-box-shadow-dark};
-  --card-shadow-light: #{$card-box-shadow-light};
-  --card-shadow-default: var(#{--card-shadow-light});
 
-  //text
-  --text-color-dark: #{$dark-color};
-  --text-color-light: #{$light-color};
-  --text-color-default: var(#{--text-color-light});
+    --menu-item-spacing: 16px;
+
+    --h-contact: 72px;
+
+    --h-contact-avatar: 30px;
+    --w-contact-avatar: 30px;
+
+
+    --panel-interface-elements: #696969;
+
 }

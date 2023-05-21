@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+
+.findUserBtn {
+    margin-left: $space-s;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.icon {
+    position: absolute;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.searchInput {
+    width: 100%;
+    height: $h-header-search-input;
+    outline: none;
+    padding-left: 20px;
+    border: none;
+    border-radius: $border-radius;
+    background-color: $search-input-background;
+}

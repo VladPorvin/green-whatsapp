@@ -13,6 +13,26 @@ body {
   background: var(#{--body-background-default});
 }
 
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;

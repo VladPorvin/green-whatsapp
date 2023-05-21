@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.contact {
+    width: 100%;
+    display: flex;
+    height: $h-contact;
+
+    .image {
+        width: $w-contact-avatar;
+        height: $h-contact-avatar;
+        border-radius: $borde-radius-circle;
+    }
+}
